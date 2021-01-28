@@ -43,6 +43,18 @@
 .banner-section-content{
 	margin-left: 70px;
 }
+.mb-md-8{
+  margin-bottom: 8rem;
+}
+.mt-md-8{
+  margin-top: 8rem;
+}
+.mt-md-6{
+  margin-top: 6rem;
+}
+.mb-lg-6{
+  margin-bottom: 6rem;
+}
 .btn-orange{
 	background-color: #f5760b !important;
 }
@@ -92,6 +104,19 @@
 	font-size: xxx-large !important;
 	margin-left: 12px;
 	color: #f5760b;
+  margin-top: -.25rem!important;
+}
+.logo{
+  height: 40px;
+}
+.digital-logo{
+  height: 40px;
+}
+.bulp-logo{
+  height: 30px;
+}
+.mobile-logo,.location-logo{
+  height: 30px;
 }
 .btn-purple{
 	padding-top: 10px;
@@ -482,6 +507,112 @@ input:checked + .slider:before {
   justify-content: center;
   flex-wrap: wrap;
 }
+.fa-share-alt{
+  font-size: 10px;
+}
+/*share icon*/
+.share {
+  /*position: fixed;*/
+  right: 20px;
+  bottom: 20px;
+}
+@media (min-width: 768px) {
+  .share {
+    right: unset;
+    bottom: unset;
+  }
+}
+.share__toggle:checked ~ .share__button {
+  transform: rotate(-180deg);
+}
+.share__toggle:checked ~ .share__icon--facebook {
+  transform: translateX(-25px) rotate(0);
+}
+.share__toggle:checked ~ .share__icon--twitter {
+  transform: translateX(-60px) rotate(0);
+}
+.share__toggle:checked ~ .share__icon--pinterest {
+  transform: translateX(-95px) rotate(0);
+}
+.share__toggle:checked ~ .share__icon--linkedin {
+  transform: translateX(-130px) rotate(0);
+}
+.share__toggles:checked ~ .share__buttons {
+  transform: rotate(-180deg);
+}
+.share__toggles:checked ~ .share__icon--facebooks {
+  transform: translateX(-25px) rotate(0);
+}
+.share__toggles:checked ~ .share__icon--twitters {
+  transform: translateX(-60px) rotate(0);
+}
+.share__toggles:checked ~ .share__icon--pinterests {
+  transform: translateX(-95px) rotate(0);
+}
+.share__toggles:checked ~ .share__icon--linkedins {
+  transform: translateX(-130px) rotate(0);
+}
+.share__togglese:checked ~ .share__button {
+  transform: rotate(-180deg);
+}
+.share__togglese:checked ~ .share__icon--facebookse {
+  transform: translateX(-25px) rotate(0);
+}
+.share__togglese:checked ~ .share__icon--twitterse {
+  transform: translateX(-60px) rotate(0);
+}
+.share__togglese:checked ~ .share__icon--pinterestse {
+  transform: translateX(-95px) rotate(0);
+}
+.share__togglese:checked ~ .share__icon--linkedinse {
+  transform: translateX(-130px) rotate(0);
+}
+.share__button,.share__buttons {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  color: #676767;
+  bottom: 15px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  /*box-shadow: 0px 0px 0px 1px #98dffd;*/
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.share__icon {
+  position: absolute;
+  top: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  transform: translateX(0) rotate(180deg);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.share__icon--facebook {
+  /*background-color: #3b5998;*/
+  text-decoration: none !important;
+  color: #2a2d50 !important;
+}
+.share__icon--twitter {
+  /*background-color: #1da1f2;*/
+  text-decoration: none !important;
+}
+.share__icon--pinterest {
+  /*background-color: #bd081c;*/
+  text-decoration: none !important;
+}
+.share__icon--linkedin {
+  /*background-color: #0077b5;*/
+  text-decoration: none !important;
+}
 /*Testimonial*/
 .sr-only{position: absolute !important;height: 1px; width: 1px;border: 0; padding: 0;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);pointer-events:none;}
 
@@ -545,8 +676,12 @@ img{max-width:100%;}
 	.banner-left-adj,.banner-second-image{
 		/*display: none;*/
 		width: 30% !important;
+    margin-top: 16%;
 		/*margin-right: 20% !important;*/
 	}
+  .navbar-toggler{
+    font-size: 3.25rem !important;
+  }
 	.clients-space{
 		display: none;
 	}
@@ -608,6 +743,7 @@ img{max-width:100%;}
   }
   .fa-play-circle{
     font-size: 6rem !important;
+    margin-top: -.5rem!important;
   }
   .mt-n7{
     margin-top: -28rem !important;
@@ -618,11 +754,11 @@ img{max-width:100%;}
     padding-bottom: 28px;
   }
   .mt-n6{
-    margin-top: -28rem !important;
+    margin-top: -30rem !important;
   }
   .package-container{
     /*margin-left: 50px;*/
-    display: grid;
+    /*display: grid;*/
   }
   .container {
     width: 780px;
@@ -648,5 +784,74 @@ img{max-width:100%;}
   .subscribe-input{
     height: 68px;
     font-size: 25px;
+  }
+  .logo{
+    height: 75px;
+  }
+  .fa-search,.fa-bars,.fa-twitter,.fa-facebook,.fa-google-plus,.fa-pinterest,.fa-linkedin{
+    font-size: 30px;
+  }
+  .digital-logo{
+    height: 70px;
+  }
+  .bulp-logo{
+    height: 70px;
+  }
+  .mobile-logo,.location-logo{
+    height: 70px;
+  }
+  .full-w{
+    width: 100%;
+  }
+  .banner-section-content{
+    margin-left: 20px;
+  }
+  .share__button,.share__buttons{
+    height: 55px;
+    width: 55px;
+    bottom: 25px;
+  }
+  .share__icon{
+    top: 88%;
+    right: 25px;
+  }
+  .share__toggle:checked ~ .share__icon--linkedin{
+    transform: translateX(-230px) rotate(0);
+  }
+  .share__toggle:checked ~ .share__icon--pinterest {
+    transform: translateX(-175px) rotate(0);
+  }
+  .share__toggle:checked ~ .share__icon--twitter {
+    transform: translateX(-120px) rotate(0);
+  }
+  .share__toggle:checked ~ .share__icon--facebook {
+    transform: translateX(-70px) rotate(0);
+  }
+  .share__toggles:checked ~ .share__icon--facebooks {
+  transform: translateX(-65px) rotate(0);
+  }
+  .share__toggles:checked ~ .share__icon--twitters {
+    transform: translateX(-120px) rotate(0);
+  }
+  .share__toggles:checked ~ .share__icon--pinterests {
+    transform: translateX(-175px) rotate(0);
+  }
+  .share__toggles:checked ~ .share__icon--linkedins {
+    transform: translateX(-240px) rotate(0);
+  }
+  .share__togglese:checked ~ .share__button {
+    transform: rotate(-180deg);
+  }
+  .share__togglese:checked ~ .share__icon--facebookse {
+    transform: translateX(-65px) rotate(0);
+  }
+  .share__togglese:checked ~ .share__icon--twitterse {
+    transform: translateX(-120px) rotate(0);
+  }
+  .share__togglese:checked ~ .share__icon--pinterestse {
+    transform: translateX(-175px) rotate(0);
+  }
+  .share__togglese:checked ~ .share__icon--linkedinse {
+    transform: translateX(-240px) rotate(0);
   }
 }
