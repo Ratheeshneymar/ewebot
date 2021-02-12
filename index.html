@@ -3,23 +3,26 @@
 	<head>
 		<title>Ewebot</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-		
+		<!-- font Awesome -->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Rubik:wght@300&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<!-- typed js Plugin -->
+		<script src="./js/typed.min.js"> </script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		<!--Owl Carousel-->
 		<link rel="stylesheet" href="css/owl.carousel.min.css">
 		<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-		
-
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/home.js"></script>
+		<!-- waypoint Link -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+
 		<script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
@@ -27,200 +30,278 @@
 
 	</head>
 	<body>
+
 		<!--Nav Section Start-->
-		<section>
-			<div class="row txt-color" >
-				<div class="col-lg-2 col-md-3 col-sm-12 col-12 banner-left-adj">
-					<img src="img/element_02.png" class="mt-8 banner-second-image">
-				</div>
-				<div class="col-lg-4 col-md-9 col-sm-12 col-12 seo-img">
-					<div class="banner-section-content font-nunito mt-6">
-						<span class="wellcome fs-1-8rem">WELLCOME</span><br>
-						<span class="fs-38 font-weight-bold txt-color fs-4rem">Digital Products</span>
-						<!-- <span class="fs-38 font-weight-bold txt-color mb-2">for Busi</span><br> -->
-						<h1 class="ml10">
-						  <span class="text-wrapper">
-						    <span class="letters fs-38 font-nunito font-weight-bold fs-4rem">for Busi</span>
-						  </span>
-						</h1>
-						<span class="fs-14 fs-1-8rem">Ensuring the best return on investment for your</span><br> 
-						
-						<span style="position: absolute;" class="fs-14 fs-1-8rem"> bespoke SEO campaign requirement.</span><br><br>
-					</div>
-					<div class="col-lg-12 mt-lg-0 mt-md-4 font-nunito" style="display: flex;">
-						<div class="col-lg-4 col-md-5 pr-0 ml-lg-5 ml-md-0 pl-lg-2 pl-md-0">
-							<button type="button" class="btn btn-purple btn-sm mb-4 fs-9 font-weight-bold fs-1-5rem">CONTACT TODAY</button>
-						</div>
-						<div class="col-lg-2 col-md-1 pl-0 pr-0 mt-lg-0 mt-md-1">
-							<i class="fa fa-play-circle mt-n2"></i>
-						</div>
-						<div class="col-lg-4 col-md-4 mt-2 pl-0 ml-md-2 ml-lg-0 mt-lg-1 mt-md-4">
-							<a class="play-video text-left fs-10 txt-orange mt-n3 fs-1-5rem ml-lg-0 ml-md-5" href="#">PLAY VIDEO</a>
-						</div>
-					</div>
-				</div>
-				<div class="banner-img col-lg-6 col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-5">
-					<img src="img/your_success-1024x727.jpg" class="img-fluid">
-				</div>
-			</div>
-			
-			
-			<nav class="navbar navbar-expand-lg navbar-light font-nunito fixed-top">
+		<section class="sticky-top">
+			<nav class="navbar navbar-expand-lg navbar-light font-nunito mh-100 p-lg-3 p-md-5">
 			  	<div class="container-fluid">
-				    <a class="navbar-brand" href="#">
+				    <a class="navbar-brand mr-5" href="#">
 				    	<img src="img/logo_retinablack.png" class="logo">
 				    </a>
 				    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  	</button>
-				    <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+				    <div class="collapse navbar-collapse justify-content-between font-weight-bold" id="navbarSupportedContent">
 				    	<div>
 					      <ul class="navbar-nav fs-14 fs-1-5rem">
 					        <li class="nav-item dropdown">
-					          <a class="nav-link active fs-2rem" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					          <a class="nav-link active fs-2rem font-rubik fs-16" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					            Home
 					            <i class="fa fa-angle-down"></i>
 					          </a>
-					          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Another action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Something else here</a></li>
+					          <ul class="dropdown-menu multi-level" aria-labelledby="navbarDropdownMenuLink">
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Action</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Another action</a></li>
+					            <li class="dropdown-submenu">
+					              <a  class="dropdown-item font-rubik fs-16 fs-1-8rem text-blue-grey" tabindex="1" href="#">Options</a>
+					              <ul class="dropdown-menu ml-lg-0 ml-5">
+					                <li class="dropdown-item"><a tabindex="-1" href="#" class="text-decoration-none font-rubik fs-16 fs-1-8rem text-blue-grey">First level</a></li>
+					                <li class="dropdown-submenu">
+					                  <a class="dropdown-item font-rubik fs-16 fs-1-8rem text-blue-grey" href="#">Even More..</a>
+					                  <ul class="dropdown-menu ml-lg-0 ml-5">
+					                      <li class="dropdown-item"><a href="#" class="font-rubik fs-16 text-decoration-none fs-1-8rem text-blue-grey">3rd level</a></li>
+					                        <li class="dropdown-submenu"><a class="dropdown-item font-rubik fs-16 fs-1-8rem text-blue-grey" href="#">another level</a>
+					                        <ul class="dropdown-menu ml-lg-0 ml-5">
+					                            <li class="dropdown-item font-rubik fs-16"><a href="#" class="text-blue-grey text-decoration-none fs-1-8rem">4th level</a></li>
+					                            <li class="dropdown-item font-rubik fs-16"><a href="#" class="text-blue-grey text-decoration-none fs-1-8rem">5th level</a></li>
+					                            <li class="dropdown-item font-rubik fs-16"><a href="#" class="text-blue-grey text-decoration-none fs-1-8rem">6th level</a></li>
+					                        </ul>
+					                      </li>
+					                      <li class="dropdown-item"><a href="#" class="font-rubik fs-16 text-decoration-none font-nunito fs-1-8rem text-blue-grey">33rd level</a></li>
+					                  </ul>
+					                </li>
+					                <li class="dropdown-item font-rubik fs-16 "><a href="#" class="text-decoration-none fs-1-8rem font-rubik fs-16 text-blue-grey">Second level</a></li>
+					                <li class="dropdown-item font-rubik fs-16 "><a href="#" class="text-decoration-none fs-1-8rem font-rubik fs-16 text-blue-grey">Third level</a></li>
+					              </ul>
+					            </li>
 					          </ul>
 					        </li>
 					        <li class="nav-item dropdown">
-					          <a class="nav-link text-blue fs-2rem" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					          <a class="nav-link text-blue fs-2rem font-rubik fs-16" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					            Pages
 					            <i class="fa fa-angle-down"></i>
 					          </a>
-					          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Another action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Something else here</a></li>
+					          <ul class="dropdown-menu multi-level" aria-labelledby="navbarDropdownMenuLink">
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Action</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Another action</a></li>
+					            <li class="dropdown-submenu">
+					              <a  class="dropdown-item font-rubik fs-16 fs-1-8rem text-blue-grey" tabindex="1" href="#">Options</a>
+					              <ul class="dropdown-menu ml-lg-0 ml-5">
+					                <li class="dropdown-item"><a tabindex="-1" href="#" class="text-decoration-none font-rubik fs-16 fs-1-8rem text-blue-grey">First level</a></li>
+					                <li class="dropdown-submenu">
+					                  <a class="dropdown-item font-rubik fs-16 fs-1-8rem text-blue-grey" href="#">Even More..</a>
+					                  <ul class="dropdown-menu ml-lg-0 ml-5">
+					                      <li class="dropdown-item"><a href="#" class="font-rubik fs-16 text-decoration-none fs-1-8rem text-blue-grey">3rd level</a></li>
+					                        <li class="dropdown-submenu"><a class="dropdown-item font-rubik fs-16 fs-1-8rem text-blue-grey" href="#">another level</a>
+					                        <ul class="dropdown-menu ml-lg-0 ml-5">
+					                            <li class="dropdown-item font-rubik fs-16"><a href="#" class="text-blue-grey text-decoration-none fs-1-8rem">4th level</a></li>
+					                            <li class="dropdown-item font-rubik fs-16"><a href="#" class="text-blue-grey text-decoration-none fs-1-8rem">5th level</a></li>
+					                            <li class="dropdown-item font-rubik fs-16"><a href="#" class="text-blue-grey text-decoration-none fs-1-8rem">6th level</a></li>
+					                        </ul>
+					                      </li>
+					                      <li class="dropdown-item"><a href="#" class="font-rubik fs-16 text-decoration-none font-nunito fs-1-8rem text-blue-grey">33rd level</a></li>
+					                  </ul>
+					                </li>
+					                <li class="dropdown-item font-rubik fs-16 "><a href="#" class="text-decoration-none fs-1-8rem font-rubik fs-16 text-blue-grey">Second level</a></li>
+					                <li class="dropdown-item font-rubik fs-16 "><a href="#" class="text-decoration-none fs-1-8rem font-rubik fs-16 text-blue-grey">Third level</a></li>
+					              </ul>
+					            </li>
 					          </ul>
 					        </li>
 					        <li class="nav-item dropdown">
-					          <a class="nav-link  text-blue fs-2rem" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					          <a class="nav-link  text-blue fs-2rem font-rubik fs-16" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					            Services
 					            <i class="fa fa-angle-down"></i>
 					          </a>
 					          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Another action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Something else here</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Main Services</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">PPC Services</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">SEO Services</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">SMM Services</a></li>
 					          </ul>
 					        </li>
 					        <li class="nav-item dropdown">
-					          <a class="nav-link text-blue fs-2rem" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					          <a class="nav-link text-blue fs-2rem font-rubik fs-16" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					            Blog
 					            <i class="fa fa-angle-down"></i>
 					          </a>
-					          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Another action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Something else here</a></li>
-					          </ul>
+						         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Action</a></li>
+						            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Another action</a></li>
+						            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Faq</a></li>
+						            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Experiences</a></li>
+						         </ul>
 					        </li>
 					        <li class="nav-item dropdown">
-					          <a class="nav-link text-blue fs-2rem" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					          <a class="nav-link text-blue fs-2rem font-rubik fs-16" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					            Shop
 					            <i class="fa fa-angle-down"></i>
 					          </a>
 					          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Another action</a></li>
-					            <li><a class="dropdown-item fs-1-8rem" href="#">Something else here</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Action</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Another action</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Faq</a></li>
+					            <li><a class="dropdown-item fs-1-8rem font-rubik fs-16 text-blue-grey" href="#">Experiences</a></li>
 					          </ul>
 					        </li>
 					        <li class="nav-item">
-					          <a class="nav-link text-blue fs-2rem" aria-current="page" href="#">Contacts</a>
+					          <a class="nav-link text-blue fs-2rem font-rubik fs-16" aria-current="page" href="#">Contacts</a>
 					        </li>
 					   	   </ul>
 				   		</div>
 					   	<div>
-					   	   <ul class="navbar-nav fs-14">
+					   	   <ul class="navbar-nav">
 						   	 	<li class="nav-item">
-						      		<a class="nav-link text-blue fs-2rem" href="#">Call Us: <strong>88002563123</strong></a>
+						      		<a class="nav-link text-blue fs-2rem fs-14  font-rubik " href="#">Call Us: <span class="fw-500 fs-16">88002563123</span></a>
 						    	</li>
-						    	<li><span class="fa fa-search p-2 mt-1 text-blue"></span></li>
-						    	<li><span class="fa fa-bars p-2 mt-1 text-blue"></span></li>
+						    	<li class="ml-lg-0 pl-lg-2">
+						    		<body>
+						    		<header>
+						    		<div id="main_search_element">
+									    <div id="search_icon_circle">
+										    <div id="search_icon_background">
+										        <i class="fa fa-search action-expand" aria-hidden="true"></i>
+
+										        <input type="text" placeholder="Search" />
+
+										        <i class="fa fa-times action-collapse" aria-hidden="true"></i>
+										        <div id="mySidenav" class="sidenav">
+													  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+													  <a class="navbar-brand mb-5" href="#">
+												    	<img src="img/logo_retinablack.png" class="logo">
+												    </a>
+													  <a href="#" class='fs-2rem font-rubik fs-16'>About</a>
+													  <a href="#" class='fs-2rem font-rubik fs-16'>Pages</a>
+													  <a href="#" class='fs-2rem font-rubik fs-16'>Services</a>
+													  <a href="#" class='fs-2rem font-rubik fs-16'>Blog</a>
+												</div>
+										    </div>
+									    </div>
+							  		</div>
+							  		</header>
+							  		</body>
+						    	</li>
+						    	<li class="ml-lg-4"><span class="fa fa-bars fs-18 p-2 mt-1 text-blue" onclick="openNav()"></span></li>
 					  		</ul>
 					  	</div>
 			    	</div>
 			 	</div>
 			</nav>
 		</section><!--nav Ends-->
-		<section><!--Services start-->
-			<div class="row mb-md-5 mt-lg-0 mt-md-5">
-				<div class="col-lg-12 text-center font-nunito txt-color mt-md-5 mt-lg-0">
-					<p class="m-0 fs-9 font-weight-bold fs-1-8rem mb-lg-0 mb-md-3">CARE FEATURES</p>
-					<p class="m-0 font-weight-bold fs-20 fs-3rem">Provide Awsome Service</p>
-					<p class="m-0 font-weight-bold fs-20 fs-3rem">With Our Tools</p>
+		<!-- digital section start -->
+		<section>
+			<div class="row txt-color" >
+				<!-- <div class="col-lg-2 col-md-3 col-sm-12 col-12 banner-left-adj">
+					<img src="img/element_02.png" class="mt-8 banner-second-image">
+				</div> -->
+				<div class="col-lg-12 col-md-12 col-sm-12 col-12 w-100">
+					<div class="success-img"></div>
+					<div class="banner-section-content font-nunito mt-6 ml-5">
+						<span class="fs-2-5rem fs-18 fw-700">WELLCOME</span><br>
+						<span class="fs-60 fw-800 txt-color fs-5rem">Digital Products</span>
+						<!-- <span class="fs-38 font-weight-bold txt-color mb-2">for Busi</span><br> -->
+						<h1 class="ml10">
+			            <strong class="text-slider fs-60 fs-5rem"></strong> 
+						</h1>
+						<span class="fs-18 fs-2-5rem fw-400 font-rubik">Ensuring the best return on investment for your</span><br> 
+						
+						<span style="position: absolute;" class="fs-18 fs-2-5rem fw-400 font-rubik"> bespoke SEO campaign requirement.</span><br><br>
+					
+						<div class="col-lg-12 mt-lg-4 mt-md-7 font-nunito pl-lg-0 pl-md-0" style="display: flex;">
+							<div class="col-lg-5 col-md-6 pr-0 ml-md-0 pl-lg-0 pl-md-0">
+								<button type="button" class="btn btn-purple btn-sm mb-4 fs-12 fw-500 font-rubik fw-500 fs-1-8rem">CONTACT TODAY</button>
+							</div>
+							<div class="col-lg-2 col-md-1 pl-0 pr-0 mt-lg-0 mt-md-1 ml-lg-0">
+								<i class="fa fa-play-circle mt-n2 pt-1"></i>
+							</div>
+							<div class="col-lg-4 col-md-5 mt-2 pl-0 pt-lg-2 pt-md-4 mt-lg-1 mt-md-4 ml-n10">
+								<a class="play-video text-left fs-12 fw-500 font-rubik txt-orange mt-n3 fs-1-8rem ml-lg-0 ml-md-5">PLAY VIDEO</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="banner-img col-md-12 col-sm-12 col-12 mt-lg-0 mt-md-5">
+					<img src="img/your_success-1024x727.jpg" class="img-fluid">
+				</div> -->
+			</div>
+		</section>
+		<!-- digital section end -->
+		<section class="mt-n13"><!--Services start-->
+			<div class="w-100">
+				<img src="img/element_02.png" class="element-2" style="max-width: 8%; margin-right: -69px;margin-bottom: -155px">
+				<img src="img/element_01.png" class="element-1" style="max-width: 8%;">
+			</div>
+			<div class="row mb-lg-5 mb-md-5 mt-lg-0 mt-md-5">
+				<div class="col-lg-12 text-center font-nunito txt-color mt-md-5 mt-lg-0 mb-lg-0 mb-md-5">
+					<p class="m-0 fs-14 fw-700 fs-2rem mb-lg-0 mb-md-3">CARE FEATURES</p>
+					<p class="m-0 fw-800 fs-30 fs-4rem">Provide Awsome Service</p>
+					<p class="m-0 fw-800 fs-30 fs-4rem">With Our Tools</p>
 				</div>
 			</div>
 		</section>
-		<section class="mt-5 mb-5 font-one">
-			<div class="container txt-color font-nunito">
+		<section class="mt-5 mb-5 font-one font-weight-bold">
+			<div class="container-fluid font-nunito">
 				<div class="row mb-5 mx-auto">
-					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box">
-						<div class="card border-0 shadow-lg p-3 mb-5 bg-white rounded card-hover">
-							<div class="card-body p-1">
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box pl-lg-3 pl-md-5 pr-lg-3 pr-md-5">
+						<div class="card border-0 shadow-lg p-4 mb-5 bg-white rounded card-hover">
+							<div class="card-body p-lg-1 p-md-5">
 						    	<div class="col-lg-12 mb-3 p-0">
-						    		<p class="card-text font-weight-bold fs-16 fs-2rem">Discover, Explore the project</p>
+						    		<p class="card-text fw-800 fs-22 pt-lg-0 pt-md-5 pb-lg-2 pb-md-5 card-title">Discover, Explore the project</p>
 						    	</div>
-						      	<div class="col-lg-6 pl-0">
-						      		<img src="img/service_img1.png" class="card-img-top" alt="...">
+						      	<div class="col-lg-6 col-md-3 pl-0 pb-lg-0 pb-md-4">
+						      		<img src="img/service_img1.png" class="card-img-top pb-2" alt="...">
 						      	</div>
-						      	<div class="col-lg-2 p-0"><hr class="border-2"></div>
-						      	<div class="col-lg-12 fs-9 p-0">
-						      		<p class="card-text font-weight-bold fs-1-8rem">DIGITAL PRODUCT UX, DESIGN & DEVELOPMENT</p>
+						      	<div class="col-lg-2 col-md-2 p-lg-0 pb-md-5"><hr class="border-2 pb-2"></div>
+						      	<div class="col-lg-12 fs-12 p-0">
+						      		<p class="card-text fw-800 fs-1-8rem pb-2">DIGITAL PRODUCT UX, DESIGN & DEVELOPMENT</p>
 						      	</div>
 						    </div>
 						</div>
 					</div>
-					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box">
-						<div class="card border-0 shadow-lg p-3 mb-5 bg-white rounded card-hover">
-							<div class="card-body p-1">
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box pl-lg-3 pl-md-5 pr-lg-3 pr-md-5">
+						<div class="card border-0 shadow-lg p-4 mb-5 bg-white rounded card-hover">
+							<div class="card-body p-lg-1 p-md-5">
 						    	<div class="col-lg-12 mb-3 p-0">
-						    		<p class="card-text font-weight-bold fs-16 fs-2rem">Art Direction & Brand Strategy</p>
+						    		<p class="card-text fw-800 fs-22  pt-lg-0 pt-md-5 pb-lg-2 pb-md-5 card-title">Art Direction & Brand Strategy</p>
 						    	</div>
-						      	<div class="col-lg-6 pl-0">
-						      		<img src="img/service_img2.png" class="card-img-top" alt="...">
+						      	<div class="col-lg-6 col-md-3 pl-0 pb-lg-0 pb-md-4">
+						      		<img src="img/service_img2.png" class="card-img-top pb-2" alt="...">
 						      	</div>
-						      	<div class="col-lg-2 p-0"><hr class="border-2"></div>
-						      	<div class="col-lg-12 fs-9 p-0">
-						      		<p class="card-text font-weight-bold fs-1-8rem">DIGITAL PRODUCT UX, DESIGN & DEVELOPMENT</p>
+						      	<div class="col-lg-2 col-md-2 p-lg-0 pb-md-5"><hr class="border-2 pb-2"></div>
+						      	<div class="col-lg-12 fs-12 p-0">
+						      		<p class="card-text fw-800 fs-1-8rem pb-2">DIGITAL PRODUCT UX, DESIGN & DEVELOPMENT</p>
 						      	</div>
 						    </div>
 						</div>
 					</div>
-					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box">
-						<div class="card border-0 shadow-lg p-3 mb-5 bg-white rounded card-hover">
-							<div class="card-body p-1">
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box pl-lg-3 pl-md-5 pr-lg-3 pr-md-5">
+						<div class="card border-0 shadow-lg p-4 mb-5 bg-white rounded card-hover">
+							<div class="card-body p-lg-1 p-md-5">
 						    	<div class="col-lg-12 mb-3 p-0">
-						    		<p class="card-text font-weight-bold fs-16 fs-2rem">Product UX, Design & Development</p>
+						    		<p class="card-text fw-800 fs-22  pt-lg-0 pt-md-5 pb-lg-2 pb-md-5 card-title">Product UX, Design & Development</p>
 						    	</div>
-						      	<div class="col-lg-6 pl-0">
-						      		<img src="img/service_img3.png" class="card-img-top" alt="...">
+						      	<div class="col-lg-6 col-md-3 pl-0 pb-lg-0 pb-md-4">
+						      		<img src="img/service_img3.png" class="card-img-top pb-2" alt="...">
 						      	</div>
-						      	<div class="col-lg-2 p-0"><hr class="border-2"></div>
-						      	<div class="col-lg-12 fs-9 p-0">
-						      		<p class="card-text font-weight-bold fs-1-8rem">DIGITAL PRODUCT UX, DESIGN & DEVELOPMENT</p>
+						      	<div class="col-lg-2 col-md-2 p-lg-0 pb-md-5"><hr class="border-2 pb-2"></div>
+						      	<div class="col-lg-12 fs-12 p-0">
+						      		<p class="card-text fw-800 fs-1-8rem pb-2">DIGITAL PRODUCT UX, DESIGN & DEVELOPMENT</p>
 						      	</div>
 						    </div>
 						</div>
 					</div>
-					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box">
-						<div class="card border-0 shadow-lg p-3 mb-5 bg-white rounded card-hover">
-							<div class="card-body p-1">
+					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0 box pl-lg-3 pl-md-5 pr-lg-3 pr-md-5">
+						<div class="card border-0 shadow-lg p-4 mb-5 bg-white rounded card-hover">
+							<div class="card-body p-lg-1 p-md-5">
 						    	<div class="col-lg-12 mb-3 p-0">
-						    		<p class="card-text font-weight-bold fs-16 fs-2rem">Marketing Strategy & SEO Campaigns</p>
+						    		<p class="card-text fw-800 fs-22 pt-lg-0 pt-md-5 pb-lg-2 pb-md-5 card-title">Marketing Strategy & SEO Campaigns</p>
 						    	</div>
-						      	<div class="col-lg-6 pl-0">
-						      		<img src="img/service_img4.png" class="card-img-top" alt="...">
+						      	<div class="col-lg-6 col-md-3 pl-0 pb-lg-0 pb-md-4">
+						      		<img src="img/service_img4.png" class="card-img-top pb-2" alt="...">
 						      	</div>
-						      	<div class="col-lg-2 p-0"><hr class="border-2"></div>
-						      	<div class="col-lg-12 fs-9 p-0">
-						      		<p class="card-text font-weight-bold fs-1-8rem">MARKETING STRATEGY & SEO CAMPAIGNS</p>
+						      	<div class="col-lg-2 col-md-2 p-lg-0 pb-md-5"><hr class="border-2 pb-2"></div>
+						      	<div class="col-lg-12 fs-12 p-0">
+						      		<p class="card-text fw-800 font-nunito fs-1-8rem pb-2">MARKETING STRATEGY & SEO CAMPAIGNS</p>
 						      	</div>
 						    </div>
 						</div>
@@ -229,315 +310,352 @@
 			</div>
 		</section>
 		<section class="mb-5"><!--Choose Us Start-->
-			<div class="container">
-				<div class="row txt-color w-80 mx-auto font-nunito">
-					<div class="col-lg-6 mb-lg-0 mb-md-5">
-						<p class="fs-9 font-weight-bold mb-1 fs-1-8rem">WHY CHOOSE US</p>
-						<p class="font-weight-bold fs-20 fs-3rem">Boost Your Website Traffic</p>
-						<p class="fs-12 pr-lg-4 mb-4 fs-2rem">We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly websites designs to make it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
-						<button type="button" class="btn btn-outline-primary txt-color fs-9 pl-3 pr-3 font-weight-bold discover-btn fs-1-5rem">DISCOVER MORE</button>
+			<div class="container-lg p-lg-0 p-md-5">
+				<div class="row txt-color font-nunito">
+					<div class="col-lg-6 col-md-12 mb-lg-0 mb-md-7">
+						<p class="fs-14 fw-700 mb-1 fs-2rem">WHY CHOOSE US</p>
+						<p class="fw-800 fs-30 fs-5rem">Boosts Your Website Traffic!</p>
+						<p class="fs-16 pr-lg-4 mb-4 fs-38rem text-grey font-rubik ">We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly websites designs to make it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+						<button type="button" class="btn btn-outline-primary txt-color fs-12 fw-500 font-rubik discover-btn fs-1-8rem">DISCOVER MORE</button>
 					</div>
-					<div class="col-lg-2 mb-lg-0 mb-md-5">
-						<div class="border-right">
-							<div class="col-lg-12 pl-0" style="display: flex;">
-								<p id="1" class="fs-38 fs-5rem font-weight-bold mb-0">0</p><i class="fa fa-plus text-danger"></i>
+					<div class="col-lg-6 col-md-12 mb-lg-0 mb-md-7">
+						<div class="mb-lg-0 mb-md-5">
+							<div class="row mb-5">
+								<div class="col-lg-4 pl-0 border-r">
+									<div class="d-flex justify-content-c">
+										<p id="1" class="fs-56 fs-8rem fw-800 mb-0 lh-1">0</p>
+										<i class="fa fa-plus text-danger fs-45"></i><br>
+									</div>
+									<p class="fs-14 font-nunito fs-2-5rem ls-1 text-grey">EMPLOYEES</p>
+								</div>
+								<div class="col-lg-8 pt-20 pl-lg-4 pl-md-0">
+									<p class="fs-16 text-grey font-rubik fs-35rem">Men and women, committed to better protect you around the world</p>
+								</div>
 							</div>
-							<p class="txt-color fs-12 font-rubik fs-2rem">EMPLOYEES</p>
-						</div>
-						<div class="border-right">
-							<div class="col-lg-12 pl-0" style="display: flex;">
-								<p id="2" class="fs-38 fs-5rem font-weight-bold mb-0">0</p><i class="fa fa-plus text-danger"></i>
+							<div class="row mb-5">
+								<div class="col-lg-4 pl-0 border-r">
+									<div class="d-flex justify-content-c">
+										<p id="2" class="fs-56 fs-8rem fw-800 mb-0 lh-1">0</p>
+										<i class="fa fa-plus text-danger fs-45"></i><br>
+									</div>
+									<p class="fs-14 font-nunito fs-2-5rem ls-1 text-grey">EMPLOYEES</p>
+								</div>
+								<div class="col-lg-8 pt-20 pl-lg-4 pl-md-0">
+									<p class="fs-16 text-grey font-rubik fs-35rem">Where you will find the same quality of service and dedication around the world.</p>
+								</div>
 							</div>
-							<p class="txt-color fs-12 font-rubik fs-2rem">PROJECTS</p>
-						</div>
-						<div class="border-right">
-							<div class="col-lg-12 pl-0" style="display: flex;">
-								<p id="3" class="fs-38 fs-5rem font-weight-bold mb-0">0</p><i class="fa fa-plus text-danger"></i>
+							<div class="row mb-5">
+								<div class="col-lg-4 pl-0 border-r">
+									<div class="d-flex justify-content-c">
+										<p id="3" class="fs-56 fs-8rem fw-800 mb-0 lh-1">0</p>
+										<i class="fa fa-plus text-danger fs-45"></i><br>
+									</div>
+									<p class="fs-14 font-nunito fs-2-5rem ls-1 text-grey">EMPLOYEES</p>
+								</div>
+								<div class="col-lg-8 pt-20 pl-lg-4 pl-md-0">
+									<p class="fs-16 text-grey font-rubik fs-35rem">Making us one of the leading web design company around the globe.</p>
+								</div>
 							</div>
-							<p class="txt-color fs-12 font-rubik fs-2rem">CLIENTS</p>
 						</div>
-					</div>
-					<div class="col-lg-4 fs-12 fs-2rem mb-lg-0 mb-md-5">
-						<p class="pt-3 ">Men and women, committed to better protect you around the world</p>
-						<p class="mt-5 mb-5 pt-2">Where you will find the same quality of service and dedication around the world</p>
-						<p class="mt-5 pt-2">Making us one of the leading web design company around the globe.</p>
+						<!-- <div class="col-lg-4 col-md-6 fs-12 fs-2rem mb-lg-0 mb-md-5" >
+							<div class="col-lg-12 pt-20">
+								<p class="fs-16 text-grey font-rubik fs-30rem">Men and women, committed to better protect you around the world</p>
+							</div>
+							<div class="col-lg-12 pt-65">
+								<p class="fs-16 text-grey font-rubik fs-30rem">Where you will find the same quality of service and dedication around the world</p>
+							</div>
+							<div class="col-lg-12 pt-65">
+								<p class="fs-16 text-grey font-rubik fs-30rem">Making us one of the leading web design company around the globe.</p>
+							</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
 		</section><!--Choose Us End-->
-		<section class="mb-5"><!--Experience start-->
-			<div class="row w-80 mx-auto">
-				<div class="col-lg-6 col-md-12 mb-md-8 mb-lg-5">
-					<img src="img/figure-image1.png" alt="image" class="img-fluid fs-2rem">
-					<div class="mt-n7 txt-white font-nunito font-weight-bold">
-						<img src="img/Digital-Presence.png" class="digital-logo">
-						<p class="fs-35 mb-0 fs-3rem">Expand your</p>
-						<p class="fs-35 mb-1 mt-n2 fs-3rem"> Digital Presence</p>
-						<p class="fs-14 mb-0 fs-1-8rem">Your app is your tool for better communication</p>
-						<p class="fs-14 mb-4 fs-1-8rem"> with your followers</p>
-						<p class="fs-10 fs-1-5rem">GET IN TOUCH <i class="fa fa-arrow-right ml-2"></i></p>
+		<section class="mb-5 p-lg-0 p-md-5"><!--Experience start-->
+			<div class="row">
+				<div class="col-lg-6 col-md-12 mb-md-5 mb-lg-5 p-lg-0 p-md-0">
+					<!-- <img src="img/figure-image1.png" alt="image" class="img-fluid fs-2rem"> -->
+					<div class="exp-img">
+						<div class="mt-n7 txt-white font-nunito">
+							<img src="img/Digital-Presence.png" class="digital-logo">
+							<p class="fs-46 mb-0 fs-3rem fw-800">Expand your</p>
+							<p class="fs-46 mb-1 mt-n2 fs-3rem fw-800"> Digital Presence</p>
+							<p class="fs-18 mb-0 fs-1-8rem font-rubik">Your app is your tool for better communication</p>
+							<p class="fs-18 mb-4 fs-1-8rem font-rubik"> with your followers</p>
+							<a href="#" class="text-white text-decoration-none"><span class="hover-orange"><span class="fs-12 fw-700 font-nunito fs-1-5rem">GET IN TOUCH <span class="fa fa-arrow-right ml-2"></span></span></span></a>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-5 col-md-12 font-nunito pl-5 txt-color mt-md-5">
-					<p class="fs-9 font-weight-bold mb-1 fs-1-8rem">EXPERIENCE</p>
-					<p class="fs-20 font-weight-bold fs-3rem">Pay for Qualified Traffic</p>
-					<p class="fs-12 mb-0 fs-2rem">Ewebot stays ahead of the curve with digital marketing trends.Our success has us leading the pack amongst our competitors</p>
-					<p class="fs-12 mb-0 fs-2rem">with our ability to anticipate change</p>
-					<p class="fs-12 mb-lg-0 mb-md-5 fs-2rem">and innovation.</p>
-					<div class="progress">
-					  <p class="fs-3rem">SEO Analysis</p>
-					  <div data-progress="90" class="mb-5"></div>
-					  <p>SEO Audit</p>
+				<div class="col-lg-5 col-md-12 font-nunito pl-lg-5 p-lg-0 p-md-4 txt-color mt-md-5">
+					<p class="fs-14 fw-700 mb-1 fs-2rem">EXPERIENCE</p>
+					<p class="fs-30 fw-800 fs-4-5rem">Pay for Qualified Traffic</p>
+					<p class="fs-16 mb-0 fs-38rem text-grey font-rubik">Ewebot stays ahead of the curve with digital marketing trends.Our success has us leading the pack amongst our competitors with our ability to anticipate change</p>
+					<p class="fs-16 mb-lg-4  mb-md-5 fs-38rem text-grey font-rubik">and innovation.</p>
+					<div class="progress ">
+					  <p class="fs-3rem fs-18 font-rubik ls-0-5">SEO Analysis</p>
+					  <div data-progress="90" class="mb-lg-5"></div>
+					  <p class="fs-18 font-rubik ls-0-5">SEO Audit</p>
 					  <div data-progress="79"></div>
-					  <p>Optimization</p>
+					  <p class="fs-18 font-rubik ls-0-5">Optimization</p>
 					  <div data-progress="95"></div>
 					</div>
-					<button type="button" class="btn btn-outline-primary txt-color fs-9 pl-lg-3 pr-lg-3 pl-md-4 pr-md-4 font-weight-bold discover-btn mt-lg-3 fs-1-5rem">DISCOVER MORE</button>
+					<button type="button" class="btn btn-outline-primary txt-color fs-12 fw-500 font-rubik discover-btn mt-lg-3 fs-1-8rem" style="font-family: sans-serif;">DISCOVER MORE</button>
 				</div>
 			</div>
 		</section><!--Experience End-->
 		<section class="mt-5 mb-5"><!--Faq start-->
-			<div class="container">
+			<div class="container-lg p-lg-0 p-md-5">
 				<div class="row faq-adj">
-					<div class="col-lg-1 faq-mobile"></div>
-					<div class="col-lg-5 col-md-12 font-nunito txt-color mt-md-5 mt-lg-5">
-						<p class="fs-9 font-weight-bold mb-1 fs-1-8rem">FAQ</p>
-						<p class="fs-20 font-weight-bold fs-3rem">Freequently Ask Questions</p>
-						<p class="font-weight-bold fs-12 txt-orange fs-2rem"> Ut enim ad minim veniam exercitation ullamco?</p>
-						<p class="fs-12 fs-2rem mb-lg-0 mb-md-5">Ne summo dictas pertinacia nam.illum cetero vocent ei vim,case regione signiferque vim te.Ex mea quem munera  lobortis. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>	
+					<!-- <div class="col-lg-1 faq-mobile"></div> -->
+					<div class="col-lg-5 col-md-12 font-nunito txt-color mt-md-5 mt-lg-5 p-0">
+						<p class="fs-14 fw-700 mb-1 fs-2rem">FAQ</p>
+						<p class="fs-30 fw-800 mb-lg-4 mb-md-5 fs-4-5rem">Freequently Ask Questions</p>
+						<p class="fw-700 fs-18 txt-orange fs-3rem"> Ut enim ad minim veniam exercitation ullamco?</p>
+						<p class="fs-16 fw-400 font-rubik fs-2-5rem mb-lg-0 mb-md-5 text-grey">Ne summo dictas pertinacia nam.illum cetero vocent ei vim,case regione signiferque vim te.Ex mea quem munera  lobortis. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>	
 						<hr>
 						<div class="accordion">
 						    <!-- Accordion -->
-						 	<div class="question fs-14 font-weight-bold fs-2rem" id="section1">
-						       	Excepteur sint proident culpa qui officia?
-							</div>
-						  	<div class="answer fs-12">
-						       <p class="fs-2rem">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-						   	</div>
-						    <hr />
-						  	<div class="question fs-14 font-weight-bold fs-2rem" id="section2">
-						        Sed ut perspiciatis unde omnis iste natus errorsit?
+						    <div class="question fs-18 font-nunito fw-700 fs-3rem" id="section1">
+						        Excepteur sint proident culpa qui offica?
 						    </div>
-							<div class="answer fs-12">
-							    <p class="fs-2rem">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<div class="answer fs-16 font-rubik">
+							    <p class="fs-2-5rem text-grey">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 							</div>
 							<hr />
-							<div class="question fs-14 font-weight-bold fs-2rem" id="section3">
+						 	<div class="question fs-18 fw-700 fs-3rem" id="section2">
+						       	Excepteur sint proident culpa qui officia?
+							</div>
+						  	<div class="answer fs-16 font-rubik">
+						       <p class="fs-2-5rem text-grey">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+						   	</div>
+						    <hr />
+						  	<div class="question fs-18 fw-700 fs-3rem" id="section3">
+						        Sed ut perspiciatis unde omnis iste natus errorsit?
+						    </div>
+							<div class="answer fs-16 font-rubik">
+							    <p class="fs-2-5rem text-grey">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							</div>
+							<hr />
+							<div class="question fs-18 fw-700 fs-3rem" id="section4">
 						        Consectetur adipisicing incididunt?
 						    </div>
-							<div class="answer fs-12">
-							    <p class="fs-2rem">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							<div class="answer fs-16 font-rubik">
+							    <p class="fs-2-5rem text-grey">Duis aute irure dolorin reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 							</div>
 							<hr />
 						</div> 
-						<button type="button" class="btn btn-outline-primary txt-color pl-lg-3 pr-lg-3 pl-md-4 pr-md-4 fs-9 pl-3 pr-3 font-weight-bold discover-btn mt-lg-3 fs-1-5rem">DISCOVER MORE</button>
+						<button type="button" class="btn btn-outline-primary txt-color fs-12 fw-500 font-rubik discover-btn mt-lg-3 fs-1-8rem">DISCOVER MORE</button>
 					</div>
-					<div class="col-lg-6 col-md-12 mt-lg-0 mt-md-6 mb-lg-0 mb-md-8">
-						<img src="img/figure_image2.png" alt="image" class="img-fluid">
-						<div class="mt-n6 txt-white font-nunito font-weight-bold">
-							<img src="img/Project-in-mind.png" class="bulp-logo">
-							<p class="fs-30 mb-0 fs-3rem">Have a project in mind ?</p>
-							<p class="fs-30 mb-1 mt-n2 fs-3rem"> Let's get to work</p>
-							<p class="fs-14 mb-0 fs-1-8rem">Find out 	how it works and ask any</p>
-							<p class="fs-14 mb-4 fs-1-8rem">questions you may have.</p>
-							<p class="fs-10 fs-1-5rem">GET IN TOUCH <i class="fa fa-arrow-right ml-2"></i></p>
+					<div class="col-lg-7 col-md-12 mt-lg-0 mt-md-6 mb-lg-0 mb-md-8">
+						<!-- <img src="img/figure_image2.png" alt="image" class="img-fluid"> -->
+						<div class="faq-image">
+							<div class="p-n6 txt-white font-nunito">
+								<img src="img/Project-in-mind.png" class="bulp-logo mb-lg-3">
+								<p class="fs-46 fw-800 mb-0 fs-5rem">Have a project in mind?</p>
+								<p class="fs-46 fw-800 mt-n2 fs-5rem"> Let's get to work.</p>
+								<p class="fs-18 font-rubik fw-400 mb-0 fs-2-5rem text-greys">Find out how it works and ask any</p>
+								<p class="fs-18 font-rubik fw-400 mb-lg-4 fs-2-5rem text-greys mb-md-5">questions you may have.</p>
+								<a href="#" class="text-white text-decoration-none"><span class="hover-violet"><span class="fs-12 fw-700 font-nunito fs-1-8rem text-violet">GET IN TOUCH <span class="fa fa-arrow-right ml-2"></span></span></span></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section><!--Faq End-->
-		<section class="mt-5 pt-5 mb-5"><!--Owl Carousel Start-->
-			<div class="row mt-lg-0 mt-md-5 mb-lg-6 mb-md-8">
-				<div class="col-lg-12 text-center font-nunito font-weight-bold txt-color blue-oval-image">
-					<p class="fs-9 mb-1 fs-1-8rem">FEATURED PROJECTS</p>
-					<p class="fs-20 fs-3rem">Our Case Studies</p>
-					<div class="owl-carousel owl-theme mt-lg-0 mt-md-5">
-					    <div class="item ">
-					    	<img src="img/1.jpg" class="img-fluid">
-					    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n5 anim ">
-					    		<div class="owl-subtitle">
-						    		<p class="fs-9 mb-0">Marketing</p>
-						    		<p class="fs-12 ">Online Media Management</p>
-					    		</div>
-					    	</div>
-					    </div>
-					     <div class="item">
-					    	<img src="img/5.jpg" class="img-fluid">
-					    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n5 anim">
-					    		<div class="owl-subtitle">
-					    			<p class="fs-9 mb-0">Marketing</p>
-					    			<p class="fs-12">Mannix Marketing</p>
-					    		</div>
-					    	</div>
-					    </div>
-					     <div class="item">
-					    	<img src="img/3.jpg" class="img-fluid">
-					    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n5 anim">
-					    		<div class="owl-subtitle">
-					    			<p class="fs-9 mb-0">Marketing</p>
-					    			<p class="fs-12">Online Media Management</p>
-					    		</div>
-					    		
-					    	</div>
-					    </div>
-					     <div class="item">
-					    	<img src="img/4.jpg" class="img-fluid">
-					    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n5 anim">
-					    		<div class="owl-subtitle">
-						    		<p class="fs-9 mb-0">Marketing</p>
-						    		<p class="fs-12">Online Media Management</p>
+		<section class="mb-lg-0 mb-md-5 dot-image"><!--Owl Carousel Start-->
+			<div class="row mt-lg-0 mt-md-5 mb-lg-0 mb-md-8 blue-oval-image text-center">
+					<div class="col-lg-12 text-center txt-color">
+						<p class="fs-14 fw-700 font-nunito mb-1 fs-2rem">FEATURED PROJECTS</p>
+						<p class="fs-30  fw-800  font-nunito fs-4-5rem">Our Case Studies</p>
+						<div class="owl-carousel owl-theme mt-lg-5 mt-md-5">
+						    <div class="item ">
+						    	<img src="img/1.jpg" class="img-fluid">
+						    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n-4 anim ">
+						    		<div class="owl-subtitle">
+							    		<p class="fs-16 fw-400 font-rubik mb-0">Marketing</p>
+							    		<p class="fs-20 fw-700 font-nunito ">Online Media Management</p>
+						    		</div>
 						    	</div>
-					    	</div>
-					    </div>
-					    <div class="item">
-					    	<img src="img/3.jpg" class="img-fluid">
-					    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n5 anim">
-					    		<div class="owl-subtitle">
-						    		<p class="fs-9 mb-0">Marketing</p>
-						    		<p class="fs-12">Online Media Management</p>
+						    </div>
+						     <div class="item">
+						    	<img src="img/5.jpg" class="img-fluid">
+						    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n-4 anim">
+						    		<div class="owl-subtitle">
+						    			<p class="fs-16 fw-400 font-rubik mb-0">Marketing</p>
+						    			<p class="fs-20 fw-700 font-nunito">Mannix Marketing</p>
+						    		</div>
 						    	</div>
-					    	</div>
-					    </div>
+						    </div>
+						     <div class="item">
+						    	<img src="img/3.jpg" class="img-fluid">
+						    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n-4 anim">
+						    		<div class="owl-subtitle">
+						    			<p class="fs-16 fw-400 font-rubik mb-0">Marketing</p>
+						    			<p class="fs-20 fw-700 font-nunito">Online Media Management</p>
+						    		</div>
+						    		
+						    	</div>
+						    </div>
+						     <div class="item">
+						    	<img src="img/4.jpg" class="img-fluid">
+						    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n-4 anim">
+						    		<div class="owl-subtitle">
+							    		<p class="fs-16 fw-400 font-rubik mb-0">Marketing</p>
+							    		<p class="fs-20 fw-700 font-nunito">Online Media Management</p>
+							    	</div>
+						    	</div>
+						    </div>
+						    <div class="item">
+						    	<img src="img/3.jpg" class="img-fluid">
+						    	<div class="font-nunito font-weight-boldon text-left pl-5 txt-white mt-n-4 anim">
+						    		<div class="owl-subtitle">
+							    		<p class="fs-16 fw-400 font-rubik mb-0">Marketing</p>
+							    		<p class="fs-20 fw-700 font-nunito">Online Media Management</p>
+							    	</div>
+						    	</div>
+						    </div>
+						</div>
 					</div>
-				</div>
+
 			</div>
 		</section><!--Owl Carousel End-->
-		<section class="mt-5 mb-5"><!--Price Plans Start-->
-			<div class="row w-80 mx-auto">
+		<section class="mt-lg-0 mt-md-5 mb-5 p-lg-0 p-md-5"><!--Price Plans Start-->
+			<div class="row ">
 				<div class="col-lg-12 text-center font-nunito font-weight-bold txt-color">
-					<p class="fs-9 mb-1 fs-1-8rem">PRICING PLANS</p>
-					<p class="fs-20 fs-3rem">The Best Solutions for Our Clients</p>
-				</div>
-				<div class="row mx-auto">
-					<div class="col-lg-12 text-center">
-						<div class="mt-3 txt-color font-nunito">
-						    <div class="top font-weight-bold font-nunito">
-						      <div class="toggle-btn mb-4">
-						        <span class='fs-2rem' style="margin: 0.8em;">Monthly</span>
-						        <label class="switch">
-						          <input type="checkbox" id="checbox" onclick="check()" ; />
-						          <span class="slider round"></span>
-						        </label>
-						        <span class="fs-2rem" style="margin: 0.8em;">Yearly</span>
-						      </div>
-						    </div>
-
-						    <div class="package-container txt-color font-nunito">
-						      <div class="packages pt-3 pb-3 shadow-lg mt-lg-0 mt-md-5">
-						        <p class="font-weight-bold mt-3 fs-2rem">Basic Plan</p>
-						        <h2 class="text1 txt-orange font-weight-bold fs-5rem">&dollar;9.99</h2>
-						        <h2 class="text2 txt-orange font-weight-bold fs-5rem">&dollar;24.40</h2>
-						        <ul class="list fs-13 mt-2">
-						          <li class="first pb-2 fs-1-5rem">SEO Audits</li>
-						          <li class="pb-2 fs-1-5rem">SEO Management</li>
-						          <li class="pb-2 fs-1-5rem">SEO Copywriting</li>
-						          <li class="pb-2 fs-1-5rem">Link Building</li>
-						          <li class="pb-2 fs-1-5rem">Site Migration</li>
-						        </ul>
-						        <a href="#" style="padding: 12px 17px 10px 20px;" class="btn btn-orange text-white font-weight-bold fs-10 mt-2 mb-3 fs-1-8rem">GET STARTED</a>
-						      </div>
-						      <div class="packages pt-5 pb-5 shadow-lg bg-purple text-white mt-lg-0 mt-md-5" height="450px">
-						        <p class="font-weight-bold fs-2rem">Standart Plan</p>
-						        <h2 class="text1 txt-orange font-weight-bold fs-5rem">&dollar;54.23</h2>
-						        <h2 class="text2 txt-orange font-weight-bold fs-5rem">&dollar;43.50</h2>
-						        <ul class="list fs-13 mt-2">
-						          <li class="first pb-2 fs-1-5rem">SEO Audits</li>
-						          <li class="pb-2 fs-1-5rem">SEO Management</li>
-						          <li class="pb-2 fs-1-5rem">SEO Copywriting</li>
-						          <li class="pb-2 fs-1-5rem">Link Building</li>
-						          <li class="pb-2 fs-1-5rem">Site Migration</li>
-						        </ul>
-						        <a href="#" style="padding: 12px 17px 10px 20px;" class="btn btn-light text-dark font-weight-bold fs-10 mt-2 fs-1-8rem">GET STARTED</a>
-						      </div>
-						      <div class="packages pt-3 pb-3 shadow-lg mt-lg-0 mt-md-6">
-						        <p class="font-weight-bold mt-3 fs-2rem">premium Plan</p>
-						        <h2 class="text1 txt-orange font-weight-bold fs-5rem">&dollar;69.09</h2>
-						        <h2 class="text2 txt-orange font-weight-bold fs-5rem">&dollar;78.70</h2>
-						        <ul class="list fs-13 mt-2">
-						          <li class="first pb-2 fs-1-5rem">SEO Audits</li>
-						          <li class="pb-2 fs-1-5rem">SEO Management</li>
-						          <li class="pb-2 fs-1-5rem">SEO Copywriting</li>
-						          <li class="pb-2 fs-1-5rem">Link Building</li>
-						          <li class="pb-2 fs-1-5rem">Site Migration</li>
-						        </ul>
-						        <a href="#" style="padding: 12px 17px 10px 20px;" class="btn btn-orange text-white font-weight-bold fs-10 mt-2 mb-3 fs-1-8rem">GET STARTED</a>
-						      </div>
-						    </div>
-					  	</div>
-			  		</div>
+					<p class="fs-14 fw-700 font-nunito mb-1 fs-2rem">PRICING PLANS</p>
+					<p class="fs-30 fw-800 fs-4-5rem">The Best Solutions for Our Clients</p>
+					<div class="mt-3 txt-color font-nunito">
+					    <div class="top font-weight-bold font-nunito">
+					      <div class="toggle-btn mb-4">
+					        <span class='fs-2-5rem fw-800' style="margin: 0.8em;">Monthly</span>
+					        <label class="switch">
+					          <input type="checkbox" id="checbox" onclick="check()" ; />
+					          <span class="slider round"></span>
+					        </label>
+					        <span class="fs-2-5rem fw-800" style="margin: 0.8em;">Yearly</span>
+					      </div>
+					    </div>
+					    <div class="package-container txt-color font-nunito">
+					      <div class="packages pt-lg-3 pt-md-7 pb-lg-3 pb-md-7 shadow-lg mt-lg-0 mt-md-5">
+					        <p class="fw-800 fs-24 mt-3 fs-4rem">Basic Plan</p>
+					        <div class="fs-66 font-weight-bold text2 txt-orange fs-140rem"><span class="a fs-35 font-weight-bold fs-70rem">$</span>24<span class="b fs-35 font-weight-bold fs-70rem">50</span></div>
+					        <div class="fs-66 font-weight-bold text1 txt-orange fs-140rem"><span class="a fs-35 font-weight-bold fs-70rem">$</span>89<span class="b fs-35 font-weight-bold fs-70rem">50</span></div>
+					        <!-- <h2 class="text1  txt-orange font-weight-bold fs-5rem">&dollar;9.99</h2> -->
+					        <!-- <h2 class="text2 fs-66 txt-orange font-weight-bold fs-5rem">&dollar;24.40</h2> -->
+					        <ul class="list fs-18 mt-2 text-grey fw-400 font-rubik">
+					          <li class="first pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Audits</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Management</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Copywriting</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">Link Building</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">Site Migration</li>
+					        </ul>
+					        <a href="#" class="btn btn-orange text-white font-weight-bold fs-12 mt-lg-2 mt-md-5 mb-lg-4 mb-md-5 fs-1-8rem">GET STARTED</a>
+					      </div>
+					      <div class="packages pt-lg-5 pt-md-7 pb-lg-5 pb-md-7 shadow-lg bg-purple text-white mt-lg-0 mt-md-5" height="450px">
+					        <p class="font-weight-bold fs-4rem fs-24">Standart Plan</p>
+					        <div class="fs-66 font-weight-bold text2 txt-orange fs-140rem"><span class="a fs-35 font-weight-bold fs-70rem">$</span>54<span class="b fs-35 font-weight-bold fs-70rem">23</span></div>
+					        <div class="fs-66 font-weight-bold text1 txt-orange fs-140rem"><span class="a fs-35 font-weight-bold fs-70rem">$</span>43<span class="b fs-35 font-weight-bold fs-70rem">50</span></div>
+					        <!-- <h2 class="text1 txt-orange font-weight-bold fs-5rem">&dollar;54.23</h2> -->
+					        <!-- <h2 class="text2 txt-orange font-weight-bold fs-5rem">&dollar;43.50</h2> -->
+					        <ul class="list fs-18 mt-2 fw-400 font-rubik">
+					          <li class="first pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Audits</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Management</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Copywriting</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">Link Building</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">Site Migration</li>
+					        </ul>
+					        <a href="#" class="btn btn-white font-weight-bold fs-12 mt-lg-2 mt-md-5 mb-lg-4 mb-md-5 fs-1-8rem">GET STARTED</a>
+					      </div>
+					      <div class="packages pt-lg-3 pt-md-7 pb-lg-3 pb-md-7 shadow-lg mt-lg-0 mt-md-6">
+					        <p class="font-weight-bold mt-3 fs-4rem fs-24">Premium Plan</p>
+					        <div class="fs-66 font-weight-bold text2 txt-orange fs-140rem"><span class="a fs-35 font-weight-bold fs-70rem">$</span>69<span class="b fs-35 font-weight-bold fs-70rem">09</span></div>
+					        <div class="fs-66 font-weight-bold text1 txt-orange fs-140rem"><span class="a fs-35 font-weight-bold fs-70rem">$</span>78<span class="b fs-35 font-weight-bold fs-70rem">70</span></div>
+					        <!-- <h2 class="text1 txt-orange font-weight-bold fs-5rem">&dollar;69.09</h2> -->
+					        <!-- <h2 class="text2 txt-orange font-weight-bold fs-5rem">&dollar;78.70</h2> -->
+					        <ul class="list fs-18 mt-2 text-grey fw-400 font-rubik">
+					          <li class="first pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Audits</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Management</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">SEO Copywriting</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">Link Building</li>
+					          <li class="pb-2 fs-2-5rem mb-lg-0 mb-md-3">Site Migration</li>
+					        </ul>
+					        <a href="#" class="btn btn-orange text-white font-weight-bold fs-12 mt-lg-2 mt-md-5 mb-lg-4 mb-md-5 fs-1-8rem">GET STARTED</a>
+					      </div>
+					    </div>
+				  	</div>
 				</div>
 			</div>
 		</section><!--Price Plans End-->
 		<section class="mt-5 mb-5"><!--Testimonals Start-->
 			<div class="row w-80 mx-auto">
 				<div class="col-lg-12 text-center font-nunito font-weight-bold txt-color mt-lg-0 mt-md-8">
-					<p class="fs-9 mb-1 fs-1-8rem">TESTIMONIALS</p>
-					<p class="fs-20 fs-3rem">What Our Client's Say</p>
+					<p class="fs-14 fw-700 mb-1 fs-2rem">TESTIMONIALS</p>
+					<p class="fs-30 fw-800 fs-4rem">What Our Client's Say</p>
 				</div>
-				<div class="row mx-auto">
-					<div class="container">
-						<div class="col-lg-12">
-							<div id="tfeature" class="container">
-						        <div class="columns">
-						            <div class="col-1"></div>
-						            <div class="col-9"><div id="tfeature-images" tabindex="-1"></div></div>
-						            <div class="col-1"></div>
-						        </div>    
-						        <div class="row mx-auto mt-4rem">
-						        	<div class="col-lg-2 col-md-2 mt-4">
-						        		<i id="tfeature_prev" class="fa fa-arrow-left"></i>
-						        	</div>
-						        	<div class="col-lg-8 col-md-8" id="tfeature-testimonial" aria-live="assertive" tabindex="0">
-							            <div class ='fs-14 mb-4 fs-1-8rem font-nunito txt-color' id="tfeature-testimonial_content">...</div>
-							            <div class ='font-weight-bold font-nunito fs-13 fs-2rem txt-color' id="tfeature-testimonial_author">...</div>
-							            <div class ='font-nunito fs-12 txt-color fs-1-5rem' id="tfeature-testimonial_subpara">...</div>
-							        </div>
-							        <div class="col-lg-2 col-md-2 text-right mt-4">
-							        	<i id="tfeature_next" class="fa fa-arrow-right"></i>
-							        </div>
+			</div>
+			<div class="row w-100 mx-auto">
+				<div class="">
+					<div class="col-lg-12">
+						<div id="tfeature" class="">
+					        <div class="columns">
+					            <div class="col-1"></div>
+					            <div class="col-9"><div id="tfeature-images" tabindex="-1"></div></div>
+					            <div class="col-1"></div>
+					        </div>    
+					        <div class="row mx-auto mt-6rem">
+					        	<div class="col-lg-2 col-md-2 mt-4">
+					        		<i id="tfeature_prev" class="fa fa-long-arrow-left fa-2x text-grey"></i>
+					        	</div>
+					        	<div class="col-lg-8 col-md-8" id="tfeature-testimonial" aria-live="assertive" tabindex="0">
+						            <div class ='fs-18 font-rubik fw-400 text-grey mb-4 fs-2rem font-nunito' id="tfeature-testimonial_content">...</div>
+						            <div class ='font-weight-bold font-nunito fs-16 fs-2-5rem txt-color' id="tfeature-testimonial_author">...</div>
+						            <div class ='font-nunito fs-14 text-grey fs-1-8rem' id="tfeature-testimonial_subpara">...</div>
 						        </div>
-						    </div>
-						</div>
+						        <div class="col-lg-2 col-md-2 text-right mt-4">
+						        	<i id="tfeature_next" class="fa fa-long-arrow-right fa-2x text-grey"></i>
+						        </div>
+					        </div>
+					    </div>
 					</div>
 				</div>
 			</div>
-
 		</section><!--Testimonals End-->
-		<div class="container">
-			<div class="row w-80 mx-auto mb-lg-3 mb-md-8 mt-lg-5 mt-md-8">
-				<div class="col-lg-2 col-md-6 mb-md-5">
-					<img src="img/1.png" class="img-fluid">
+		<div class="container-lg p-0">
+			<div class="row mb-lg-5 mb-md-4 mt-lg-5 mt-md-8">
+				<div class="col-lg-3 col-md-12  mb-lg-0 mb-md-7 text-center">
+					<img src="img/1.png" class="h-30 h-65">
 				</div>
-				<div class="col-lg-1 clients-space">
+				<!-- <div class="col-lg-1 clients-space">
+				</div> -->
+				<div class="col-lg-3 col-md-12 mb-lg-0 mb-md-7 text-center">
+					<img src="img/2.png" class="h-30 h-65">
 				</div>
-				<div class="col-lg-2 col-md-6 mb-md-5">
-					<img src="img/2.png" class="img-fluid">
+				<!-- <div class="col-lg-1 clients-space">
+				</div> -->
+				<div class="col-lg-3 col-md-12 mb-lg-0 mb-md-7 mt-n1 text-center">
+					<img src="img/3.png" class="h-45 h-110">
 				</div>
-				<div class="col-lg-1 clients-space">
-				</div>
-				<div class="col-lg-2 col-md-6 mt-n1">
-					<img src="img/3.png" height="40%" class="sutha-HR">
-				</div>
-				<div class="col-lg-1 clients-space">
-				</div>
-				<div class="col-lg-2 col-md-6">
-					<img src="img/4.png" class="img-fluid">
+				<!-- <div class="col-lg-1 clients-space">
+				</div> -->
+				<div class="col-lg-3 col-md-12 mb-lg-0 mb-md-7 text-center">
+					<img src="img/4.png" class="h-30 h-65">
 				</div>
 			</div>
 		</div>
-		<section class="mb-5"><!--Blog section starts-->
-			<div class="row w-80 mx-auto">
+		<section class="mb-5 container-lg p-lg-0 p-md-5"><!--Blog section starts-->
+			<div class="row ">
 				<div class="col-lg-12  font-nunito  txt-color text-center">
-					<p class="fs-9 font-weight-bold mb-1 fs-1-8rem">BLOG</p>
-					<p class="fs-20 font-weight-bold fs-3rem">Read Our Lates News</p>
-					<p class="fs-12 mb-0 fs-2rem">Ad nec unum copiosae. Sea ex everti labores, ad option iuvaret qui.Id</p>	
-					<p class="fs-12 mb-4 fs-2rem mb-lg-5 mb-md-5">quo esse nusawuam,Eam irruer dicret opeatres</p>
-					<div class="row w-80 mx-auto">
+					<p class="fs-14 fw-700 mb-1 fs-2rem">BLOG</p>
+					<p class="fs-30 fw-800 fs-4rem">Read Our Lates News</p>
+					<p class="fs-18 text-grey font-rubik mb-0 fs-2-5rem mb-lg-5 mb-md-5">Ad nec unum copiosae. Sea ex everti labores, ad option iuvaret qui.Id quo esse nusawuam,Eam irruer dicret opeatres</p>	
+					<!-- <p class="fs-18 text-grey font-rubik mb-4 fs-2rem "></p> -->
+					<div class="row ">
 						<div class="col-lg-4 mb-lg-0 mb-md-5">
 							<img src="img/blog_img_01-768x512-420x280.jpg" class="img-fluid rounded mb-3 blog-img-mobile">
-							<p class="text-left text-secondary mb-0 fs-10 fs-1-5rem">Aug 2, 2020</p>
-							<p class='mb-4 txt-color text-left font-weight-bold fs-16 fs-2rem'>How to Increase Your  ROI Through scientific SEM?</p>
-							<span class="txt-dark-blue float-left fs-9 read-more font-weight-bold fs-1-5rem mb-md-5 mb-lg-0">READ MORE</span>
+							<p class="text-left text-secondary mb-0 fs-14 fw-400 fs-2rem mt-lg-0 mt-md-4">August 2, 2020</p>
+							<p class='mb-5 txt-color text-left fw-800 fs-20 fs-3rem'>How to Increase Your  ROI Through scientific SEM?</p>
+							<span class="txt-dark-blue float-left fs-13 fw-500 font-rubik read-more fs-2rem mb-md-5 mb-lg-0">READ MORE</span>
 							<!-- <span class="text-secondary float-right fs-12 mr-1"><i class="fa fa-share-alt"></i></span> -->
 							<span class="float-right fs-12">
 								<div class="share">
@@ -562,9 +680,9 @@
 						</div>	
 						<div class="col-lg-4 mb-lg-0 mb-md-5">
 							<img src="img/home5_blog_img.jpg" class="img-fluid rounded mb-3">
-							<p class="text-left text-secondary mb-0 fs-10 fs-1-5rem">Aug 1, 2020</p>
-							<p class='mb-4 txt-color text-left font-weight-bold fs-16 fs-2rem'>Simple Ways to Optimize Your Website For SEO</p>
-							<span class="txt-dark-blue float-left fs-9 read-more font-weight-bold fs-1-5rem mb-md-5 mb-lg-0">READ MORE</span>
+							<p class="text-left text-secondary mb-0 fs-14 fw-400 fs-2rem mt-lg-0 mt-md-4">August 1, 2020</p>
+							<p class='mb-5 txt-color text-left fw-800 fs-20 fs-3rem'>Simple Ways to Optimize Your Website For SEO</p>
+							<span class="txt-dark-blue float-left read-more fs-13 fw-500 font-rubik fs-2rem mb-md-5 mb-lg-0">READ MORE</span>
 							<!-- <span class="text-secondary float-right fs-12 mr-1"><i class="fa fa-share-alt"></i></span> -->
 							<span class="float-right fs-12">
 								<div class="share">
@@ -589,9 +707,9 @@
 						</div>
 						<div class="col-lg-4 mb-lg-0 mb-md-5">
 							<img src="img/blog_post_02.jpg" class="img-fluid rounded mb-3">
-							<p class="text-left text-secondary mb-0 fs-10 fs-1-5rem">Aug 1, 2020</p>
-							<p class='mb-4 txt-color text-left font-weight-bold fs-16 fs-2rem'>The Basics of Blogging Search Engine  Optimization</p>
-							<span class="txt-dark-blue float-left fs-9 read-more font-weight-bold fs-1-5rem mb-md-5 mb-lg-0">READ MORE</span>
+							<p class="text-left text-secondary mb-0 fs-14 fw-400 fs-2rem mt-lg-0 mt-md-4">August 1, 2020</p>
+							<p class='mb-5 txt-color text-left fw-800 fs-20 fs-3rem'>The Basics of Blogging Search Engine  Optimization</p>
+							<span class="txt-dark-blue float-left  read-more fs-13 fw-500 font-rubik fs-2rem mb-md-5 mb-lg-0">READ MORE</span>
 							<!-- <span class="text-secondary float-right fs-12 mr-1"><i class="fa fa-share-alt"></i></span> -->
 							<span class="float-right fs-12">
 								<div class="share">
@@ -618,114 +736,121 @@
 				</div>
 			</div>
 		</section><!--Blog section End-->
-		<section class="mb-5">
-			<div class="row">
-				<div class="col-lg-12 mb-md-5 mb-lg-4">
-					<img src="img/home5_bg_01.jpg" alt="image" class="img-fluid footer-img">
-					<div class="footer-img-content font-nunito txt-white text-center">
-						<p class="font-weight-bold fs-9 mb-1 fs-1-8rem">ANALYSIS</p>
-						<p class="font-weight-bold fs-20 mb-2 fs-3rem">Get Free SEO Analysis?</p>
-						<p class="fs-12 font-weight-bold mb-0 fs-2rem">Ne summo dictas pertinacia nam.Illum cetero vocent ei vim,</p>
-						<p class="fs-12 font-weight-bold fs-2rem">case regione signiferumque vim te</p>
-						<p class="mb-7 fs-12 font-weight-bold">
-							<span class="float-left"><input type="text" class="text-line pr-3 mr-3 fs-2rem " placeholder="Your Name*" /></span>
-							<span class="float-right"><input type="text" class="text-line pr-3 fs-2rem" placeholder="Email*" /></span>
-						</p>
-						<p class="fs-12 font-weight-bold">
-							<span class="float-left"><input type="text" class="text-line pr-3 mr-3 fs-2rem" placeholder="Phone" /></span>
-							<span class="float-right"><input type="text" class="text-line pr-3 fs-2rem" placeholder="Website*" /></span>
-						</p>
-						<button type="button" style='padding: 12px 18px 10px 20px;' class="btn btn-orange mt-md-4 txt-white fs-10 font-weight-bold mt-lg-4 fs-1-8rem btn-orange-mobile">CHECK NOW</button>
+		<section class="footer-img mb-lg-5 mb-md-5"><!--Analysis section Start-->
+			<div class="w-50 mx-auto txt-white">
+				<p class="text-center pt-lg-5rem fw-700 fs-14  fs-2rem font-nunito">ANALYSIS</p>
+				<p class="text-center fw-800 fs-30 fs-4rem font-nunito mb-lg-3 mb-md-5">Get Free SEO Analysis?</p>
+				<p class="text-center fs-18 font-rubik fs-2-5rem mb-lg-0 mb-md-5">Ne summo dictas pertinacia nam.Illum cetero vocent ei vim,<br>case regione signiferumque vim te</p>
+				<div class="row p-lg-4">
+					<div class="col-lg-6 col-md-12 fs-16 fw-400 font-rubik mb-lg-0 mb-md-5">
+						<input type="text" class="text-line pr-3 pb-lg-2 pb-md-3 mr-3 fs-2-3rem w-100" placeholder="Your Name*" />
+					</div>
+					<div class="col-lg-6 col-md-12 fs-16 fw-400 font-rubik mb-lg-0 mb-md-5">
+						<input type="text" class="text-line pr-3 pb-lg-2 pb-md-3 fs-2-3rem w-100" placeholder="Email*" />
 					</div>
 				</div>
+				<div class="row pl-lg-4 pr-lg-4">
+					<div class="col-lg-6 col-md-12 fs-16 fw-400 font-rubik mb-lg-0 mb-md-5">
+						<input type="text" class="text-line pr-3 pb-lg-2 pb-md-3 mr-3 fs-2-3rem w-100" placeholder="Phone*" />
+					</div>
+					<div class="col-lg-6 col-md-12 fs-16 fw-400 font-rubik mb-lg-0 mb-md-5">
+						<input type="text" class="text-line pr-3 pb-lg-2 pb-md-3 fs-2-3rem w-100" placeholder="Website*" />
+					</div>
+				</div>
+				<div class="text-center mt-lg-3 mt-md-5">
+					<button type="button" class="btn btn-check-now mt-md-4 txt-white fs-12 fw-700 font-nunito mt-lg-4 fs-1-8rem">CHECK NOW</button>
+				</div>
 			</div>
-		</section>
-		<section class="mb-3"><!--Email Address Section start-->
-			<div class="container">
-				<div class="row w-80 mx-auto full-w">
-					<div class="col-lg-3 col-md-6 mb-md-5 mb-lg-0 pl-lg-0" style="display: flex;">
-						<div class="col-lg-3 col-md-3 pr-0 pl-md-0 pl-lg-2 mr-1 ">
+		</section><!--Analysis section End-->
+		<section class="mb-lg-0 mt-lg-5"><!--Email Address Section start-->
+			<div class="container-lg p-lg-0 p-md-5">
+				<div class="row full-w">
+					<div class="col-lg-3 col-md-12 mb-md-7 mb-lg-0 pl-lg-0 email">
+						<div class="col-lg-2 col-md-3 pr-0 pl-md-0 pl-lg-1 ">
 							<img src="img/img_box_29_orange.png" class="mobile-logo" >
 						</div>
-						<div class="col-lg-8 mt-n2 pl-0">
-							<a href="#" style="text-decoration:none;" class="txt-color fs-2rem"><small>8 800 2534 236<br> email@yoursite.com</small></a>
+						<div class="col-lg-10  pl-0 fs-18 fw-400 font-rubik pl-lg-2">
+							<a href="#" style="text-decoration:none;" class="txt-color fs-2-5rem"><span>8 800 2534 236<br> email@yoursite.com</span></a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 pl-0 mb-md-5" style="display: flex;">
-						<div class="col-lg-2 col-md-3 pr-0 mr-2 pl-0">
+					<div class="col-lg-3 col-md-12 pl-0 mb-md-7 location">
+						<div class="col-lg-2 col-md-3 pr-0 pl-0">
 							<img src="img/img_box_30_orange.png" class="location-logo">
 						</div>
-						<div class="col-lg-8 mt-n2 pl-0">
-							<a href="#" style="text-decoration:none;" class="txt-color fs-2rem"><small>27 Division St, New York<br> 10002, United States</small></a>
+						<div class="col-lg-10  fw-400 font-rubik pl-lg-2">
+							<a href="#" style="text-decoration:none;" class="txt-color fs-2-5rem"><span>27 Division St, New York, NY<br> 10002, United States</span></a>
 						</div>
 					</div>
-					<div class="col-lg-5 col-md-12 font-nunito font-weight-bold pl-lg-0">
+					<div class="col-lg-6 col-md-12 font-nunito font-weight-bold pl-lg-0">
 						<div class="input-group mb-3">
-						  	<input type="text" class="form-control m-0 subscribe-input" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+						  	<input type="text" class="form-control m-0 subscribe-input" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2" style="height: auto;">
 							<div class="input-group-append">
-							    <button class="btn btn-purple fs-10 fs-m-20" type="button" id="button-addon2">SUBSCRIBE NOW</button>
+							    <button class="btn btn-purple fs-12 fs-m-20 subscribe-now" type="button" id="button-addon2">SUBSCRIBE NOW</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row w-80 mx-auto">
-					<div class="col-lg-12">
-						<hr class="mt-lg-0 mt-md-5">
+				<div class="row mb-n50">
+					<div class="col-lg-12 p-lg-0">
+						<hr class="mt-lg-0 mt-md-5 mb-lg-5">
 					</div>
 				</div>
 			</div>
 		</section><!--Email Address Section Ends-->
 		<section class="mb-5"><!--Footer Starts-->
-			<div class="container">
-				<div class="row w-80 mx-auto font-nunito txt-color">
-					<div class="col-lg-3 col-md-12 ">
-						<p class='mb-4 text-left font-weight-bold fs-18 fs-3rem'>About</p>
-						<p class="fs-13 font-awesome text-secondary fs-2rem mb-lg-3 mb-md-4">We focus on the needs of small to middle market business to improve and grow	their return.</p>
+			<div class="container-lg p-lg-0 p-md-5">
+				<div class="row font-nunito txt-color mb-lg-5">
+					<div class="col-lg-3 col-md-12 mb-lg-0 mb-md-5 p-lg-0 p-md-5">
+						<p class='mb-4 text-left fw-800 fs-20 fs-3rem'>About</p>
+						<p class="fs-16 font-rubik font-awesome text-grey fs-2-5rem mb-lg-3 mb-md-5 pr-lg-3 lh-1-75">We focus on the needs of small to middle market business to improve and grow	their return.</p>
 						<p class="mb-lg-0 mb-md-5">
-							<i class="fa fa-twitter mr-2 text-info"></i>
-							<i class="fa fa-facebook mr-2 text-color"></i>
-							<i class="fa fa-google-plus mr-2 text-danger"></i>
-							<i class="fa fa-pinterest mr-2 text-danger"></i>
-							<i class="fa fa-linkedin mr-2 text-info"></i>
+							<i class="fa fa-twitter mr-lg-0 mr-md-4 text-info"></i>
+							<i class="fa fa-facebook  mr-lg-0 mr-md-4 text-color pl-3"></i>
+							<i class="fa fa-google-plus mr-lg-0 mr-md-4 text-danger pl-3"></i>
+							<i class="fa fa-pinterest mr-lg-0 mr-md-4 text-danger pl-3"></i>
+							<i class="fa fa-linkedin mr-lg-0 mr-md-4 text-info pl-3"></i>
 						</p>
 					</div>
-					<div class="col-lg-3 col-md-6 mb-md-5 mb-lg-0">
-						<p class='mb-4 font-nunito txt-color text-left font-weight-bold fs-18 fs-3rem'>Services</p>
-						<p class="fs-12 mb-1 fs-1-8rem">SEO Marketing</p>
-						<p class="fs-12 mb-1 fs-1-8rem">SEO Services</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Pay Per Click</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Social Media</p>
-						<p class="fs-12 mb-1 fs-1-8rem">SEO Audit</p>
+					<div class="col-lg-3 col-md-12 mb-md-5 mb-lg-0 p-lg-0 p-md-5">
+						<p class='mb-lg-4 mb-md-5 font-nunito txt-color text-left fw-800 fs-20 fs-3rem'>Services</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">SEO Marketing</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">SEO Services</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Pay Per Click</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-5rem fw-400 font-rubik">Social Media</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">SEO Audit</p>
 					</div>
-					<div class="col-lg-3 col-md-6">
-						<p class='mb-4 font-nunito txt-color text-left font-weight-bold fs-18 fs-3rem'>Community</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Our Product</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Documentation</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Our Services</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Company</p>
-						<p class="fs-12 mb-1 fs-1-8rem">What We Do?</p>
+					<div class="col-lg-3 col-md-12 p-lg-0 p-md-5">
+						<p class='mb-lg-4 mb-md-5 font-nunito txt-color text-left fw-800 fs-20 fs-3rem'>Community</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Our Product</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Documentation</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Our Services</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Company</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">What We Do?</p>
 					</div>
-					<div class="col-lg-3 col-md-6">
-						<p class='mb-4 font-nunito txt-color text-left font-weight-bold fs-18 fs-3rem'>Quick Links</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Home</p>
-						<p class="fs-12 mb-1 fs-1-8rem">About Us</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Services</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Pricing</p>
-						<p class="fs-12 mb-1 fs-1-8rem">Our Cases</p>
+					<div class="col-lg-3 col-md-12 p-lg-0 p-md-5">
+						<p class='mb-lg-4 mb-md-5 font-nunito txt-color text-left fw-800 fs-20 fs-3rem'>Quick Links</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Home</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">About Us</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Services</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Pricing</p>
+						<p class="fs-16 mb-lg-1 mb-md-3 fs-2-3rem fw-400 font-rubik">Our Cases</p>
 					</div>
 				</div>
-				<div class="row w-80 mx-auto">
-					<div class="col-lg-12">
+				<div class="row">
+					<div class="col-lg-12 p-lg-0 mb-lg-3">
 						<hr>
 					</div>
 				</div>
-				<div class="row w-80 mx-auto">
-					<div class="col-lg-12">
-						<p class="text-left text-secondary mb-0 fs-11 fs-1-8rem">2020 - Ewebot by GT3Themes.All Rights Reserved</p>
+				<div class="row">
+					<div class="col-lg-12 p-lg-0">
+						<p class="text-left text-grey mb-0 fs-14 font-rubik fs-2rem">&#169; 2021 - Ewebot by GT3Themes.All Rights Reserved</p>
 					</div>
 				</div>
 			</div>
 		</section><!--Footer End-->
+		<a id="back-to-top" href="#" class="btn btn-top back-to-top" role="button">
+			<i class="fa fa-chevron-up"></i>
+		</a>
 		<!--Owl Carousel script-->
 		<script type="text/javascript">
 			$('.owl-carousel').owlCarousel({
@@ -800,6 +925,7 @@
 			document.getElementById("section1").onclick = toggle
 			document.getElementById("section2").onclick = toggle
 			document.getElementById("section3").onclick = toggle
+			document.getElementById("section4").onclick = toggle
 
 			function toggle() {
 			    this.classList.toggle("active")
@@ -811,7 +937,7 @@
 			            question.classList.remove("active")
 			        }
 			    })
-			}
+			};
 		</script>
 		<!--Pricing Plans Script-->
 		<script type="text/javascript">
@@ -856,7 +982,7 @@
 		    var testimonials = [
 		        {"author": "Han Solo", "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.", "image": "img/Silviia-Garden-258x258.jpg"},
 		        {"author": "Princess Leia", "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.", "image": "img/img_2-258x258.jpg"},
-		        {"author": "Denis Robinson", "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.", "image": "img/Denis-Robinson-258x258.jpg", "subpara": "customer"},
+		        {"author": "Denis Robinson", "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.", "image": "img/Denis-Robinson-258x258.jpg", "subpara": "Customer"},
 		        {"author": "Finn", "content": "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English", "image": "img/img_2-258x258.jpg"},
 		        // {"author": "Poe", "content": "Content Five", "image": "img/Silviia-Garden-258x258.jpg"},
 		    ];
@@ -916,5 +1042,113 @@
 			    delay: 1000
 			  });
 		</script>
+		<!-- Search icon -->
+		<script type="text/javascript">
+		// https://dribbble.com/shots/14583431/attachments/6274107?mode=media
+
+		const ELEMENTS = {
+		  MAIN_SEARCH_ELEMENT: "#main_search_element",
+		  ACTION_EXPAND_ELEMENT: ".action-expand",
+		  ACTION_COLLAPSE_ELEMENT: ".action-collapse"
+		};
+
+		let isExpanded = false;
+
+		const ToggleSearchElement = document.querySelector(
+		  ELEMENTS.ACTION_EXPAND_ELEMENT
+		);
+
+		const SearchIconCircleElement = document.querySelector(
+		  ELEMENTS.MAIN_SEARCH_ELEMENT
+		);
+
+		ToggleSearchElement.onclick = () => {
+		  searchIconExpandToggle();
+		};
+
+		const searchIconExpandToggle = () => {
+		  isExpanded = !isExpanded;
+
+		  if (isExpanded) {
+		    SearchIconCircleElement.classList.add("expand");
+
+		    watchForCollapseAction();
+		  } else {
+		    SearchIconCircleElement.classList.remove("expand");
+		  }
+		};
+
+		const watchForCollapseAction = () => {
+		  const ToggleSearchElement = document.querySelector(
+		    ELEMENTS.ACTION_COLLAPSE_ELEMENT
+		  );
+
+		  ToggleSearchElement.onclick = () => {
+		    searchIconExpandToggle();
+		  };
+		};
+
+	</script>
+	<!-- scroll Back to top -->
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(window).scroll(function () {
+					if ($(this).scrollTop() > 50) {
+						$('#back-to-top').fadeIn();
+					} else {
+						$('#back-to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#back-to-top').click(function () {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 400);
+					return false;
+				});
+		});
+	</script>
+	<!-- texted js -->
+	<script> 
+	    if ($(".text-slider").length == 1) { 
+	        var typed_strings = $(".text-slider-items").text(); 
+	        var typed = new Typed(".text-slider", { 
+	            strings: ['for Business ', 'to Sell Online', 'for Your Ideas'],
+	            typeSpeed: 50, 
+	            loop: true, 
+	            cursorChar: '',
+	            backDelay: 900, 
+	            backSpeed: 30, 
+	        }); 
+	    } 
+	</script> 
+	<!-- sticky nav -->
+	<script type="text/javascript">
+		var navbar = document.querySelector('nav')
+
+		window.onscroll = function() {
+
+		  // pageYOffset or scrollY
+		  if (window.pageYOffset > 0) {
+		    navbar.classList.add('scrolled')
+		  } else {
+		    navbar.classList.remove('scrolled')
+		  }
+		}
+	</script>
+	<!-- side nav -->
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "450px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		  document.body.style.backgroundColor = "white";
+		}
+	</script>
 	</body>
 </html>
