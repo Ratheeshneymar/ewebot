@@ -1237,6 +1237,23 @@ img{max-width:100%;}
   .col-1,.col-9{padding:10px 0;}
 }
 @media (max-width: 992px){
+  .bg-white-nav{
+    background: #ffffff;
+    padding: 90px 45px;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.175);
+  }
+  .closebtn{
+    font-size: 65px !important;
+  }
+  .btn-top{
+    padding: 30px 35px 30px 35px;
+    font-size: 2rem;
+    border-radius: 15px;
+  }
+  .back-to-top{
+    bottom: 90px;
+    right: 120px;
+  }
   .mh-100 {
       min-height: 265px !important;
   }
